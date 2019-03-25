@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        app:defaultValue="true"
+        app:key="num_soup"
+        app:summary="At least one soup per meal"
+        app:title="Soup" />
+    <SwitchPreference
+        app:defaultValue="true"
+        app:key="num_fish_per_week"
+        app:summary="At least one dish contains fish in a week"
+        app:title="Fish" />
+    <SwitchPreference
+        app:defaultValue="true"
+        app:key="num_bean_per_week"
+        app:summary="At least one dish contains beans in a week"
+        app:title="Beans" />
+    <ListPreference
+            android:entryValues="@array/num_vegi"
+            android:entries="@array/num_vegi"
+            android:defaultValue="1"
+            android:key="num_vegi"
+            android:summary="%s vegetarian dishes per meal"
+            android:title="Vegetarian Food" />
+    <ListPreference
+            android:entryValues="@array/selectedItemsMaxCount"
+            android:entries="@array/selectedItemsMaxCount"
+            android:defaultValue="4"
+            android:key="selectedItemsMaxCount"
+            android:summary="%s meals to cook in a week"
+            android:title="Number of meals" />
+    <ListPreference
+            android:entryValues="@array/numOfMeals"
+            android:entries="@array/numOfMeals"
+            android:defaultValue="7"
+            android:key="numOfMeals"
+            android:summary="%s meals to recommend for the week"
+            android:title="Number of recommendations" />
+    <ListPreference
+            android:entryValues="@array/numOfDishes"
+            android:entries="@array/numOfDishes"
+            android:defaultValue="3"
+            android:key="numOfDishes"
+            android:summary="%s dishes to cook per meal"
+            android:title="Number of dishes" />
+    <ListPreference
+            android:entryValues="@array/num_food_interval"
+            android:entries="@array/num_food_interval"
+            android:defaultValue="2"
+            android:key="num_food_interval"
+            android:summary="The same ingredient cannot repeat in %s consecutive days"
+            android:title="Food interval" />
+    <ListPreference
+            android:entryValues="@array/num_seafood_interval"
+            android:entries="@array/num_seafood_interval"
+            android:defaultValue="3"
+            android:key="num_seafood_interval"
+            android:summary="Seafood cannot repeat in %s consecutive days"
+            android:title="Seafood interval"
+        />
+    <ListPreference
+            android:entryValues="@array/language"
+            android:entries="@array/language"
+            android:defaultValue="Chinese"
+            android:key="language"
+            android:summary="%s"
+            android:title="Language"
+    />
+
+</PreferenceScreen>

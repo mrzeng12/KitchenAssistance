@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_kitchenbuddy"
+    app:startDestination="@id/mainFragment">
+
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.falcon.kitchenbuddy.ui.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment" />
+
+    <fragment
+        android:id="@+id/browseFragment"
+        android:name="com.falcon.kitchenbuddy.ui.BrowseFragment"
+        android:label="browse_fragment"
+        tools:layout="@layout/browse_fragment" />
+
+    <fragment
+        android:id="@+id/shoppingListFragment"
+        android:name="com.falcon.kitchenbuddy.ui.ShoppingListFragment"
+        android:label="shopping_list_fragment"
+        tools:layout="@layout/shopping_list_fragment" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.falcon.kitchenbuddy.ui.HistoryFragment"
+        android:label="history_fragment"
+        tools:layout="@layout/history_fragment" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.falcon.kitchenbuddy.ui.SettingsFragment"
+        android:label="SettingsFragment"
+        />
+    <fragment
+        android:id="@+id/mealListFragment"
+        android:name="com.falcon.kitchenbuddy.ui.MealListFragment"
+        android:label="meal_list_fragment"
+        tools:layout="@layout/meal_list_fragment" />
+    <fragment
+        android:id="@+id/foodDetailFragment"
+        android:name="com.falcon.kitchenbuddy.ui.FoodDetailFragment"
+        android:label="food_detail_fragment"
+        tools:layout="@layout/food_detail_fragment" />
+    <fragment
+        android:id="@+id/foodEditFragment"
+        android:name="com.falcon.kitchenbuddy.ui.FoodEditFragment"
+        android:label="food_edit_fragment"
+        tools:layout="@layout/food_edit_fragment" />
+    <fragment
+        android:id="@+id/historyMealFragment"
+        android:name="com.falcon.kitchenbuddy.ui.HistoryMealFragment"
+        android:label="HistoryMealFragment" />
+</navigation>

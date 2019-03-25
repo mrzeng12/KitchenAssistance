@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KitchenBuddy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Kitchen Buddy</string>
+    <string name="nav_header_subtitle">Innovative way of preparing meals</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="sp_key_selectedFoodList">selectedFoodList</string>
+    <string name="sp_key_purchasedItemList">purchasedItemList</string>
+    <string name="sp_name">KitchenBuddy</string>
+</resources>
